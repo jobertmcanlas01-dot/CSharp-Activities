@@ -1,0 +1,58 @@
+using System;
+
+class program
+{
+    static void Main(string[] args)
+{
+    string name = "Jobert";
+    char favorite_letter = 'R';
+    int age = 22;
+    double pounds = 65.01;
+    bool mode = true;
+
+Console.WriteLine(name);
+Console.WriteLine(favorite_letter);
+Console.WriteLine(age);
+Console.WriteLine(pounds);
+Console.WriteLine(mode);
+}
+}
+
+    
+using System;
+
+class program
+{
+    static void Main(string[] args)
+{
+    string name = "Jobert";
+    int age = 22;
+    double price = 20.56;
+    char store = 'R';
+    bool mode = true;
+    
+Console.WriteLine("Hi my name is "+name+" , I am "+age+" years old. I bought a orange for a price of "+price+" per kilo. The name of the store is "+store+" and is it "+mode+" for selling a high value fruits");
+}
+}
+
+using System;
+
+class program
+{
+    static void Main(string[] args)
+{
+   //Input Function
+   Console.Write("What is your name? ");
+   string name = Console.ReadLine();
+   Console.Write("How old are you?");
+   int age = Convert.ToInt32(Console.ReadLine());
+   Console.Write("How much money do you have?(e.g 100.05)? ");
+   double price = Convert.ToDouble(Console.ReadLine());
+   Console.Write("What letter grade did you get in school (e.g A)? ");
+   char grade = Convert.ToChar(Console.ReadLine());
+   Console.Write("Are you a student? (true/false) ");
+   bool student = Convert.ToBoolean(Console.ReadLine());
+   
+   Console.WriteLine("My name is "+name+", I am "+age+" years old, I have "+price+" in my pocket, I got a "+grade+" in school, and it is "+student+" that I am currently a student");
+}
+}
